@@ -10,12 +10,13 @@ padding: 0;
 text-shadow: 4px 3px black;
 }
 
-html, body {
+body, html {
+    font-family: "Lato", sans-serif;
     margin  : 0px;
     padding : 30px;
 }
 
-div {
+/*div {
     position    : absolute;
     top         : 0px;
     left        : 0px;
@@ -31,7 +32,7 @@ img {
     width    : 100%;
     top      : 0px;
     z-index  : -1;
-}
+}*/
 
 .bgimg {
     background-image: url('../img/vineyard.png');
