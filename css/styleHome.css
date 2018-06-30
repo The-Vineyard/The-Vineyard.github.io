@@ -13,6 +13,7 @@ text-shadow: 4px 3px black;
 body, html {
     font-family: "Lato", sans-serif;
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
