@@ -27,7 +27,7 @@ body, html {
 }
 
 .bgimg {
-    background-image: url('F:/4-H Website/img/countdown_background.jpeg');
+    background-image: url('../img/countdown_background.jpeg');
     height: 100%;
     background-position: center;
     background-size: cover;
