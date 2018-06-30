@@ -1,12 +1,7 @@
 @media screen and (max-width: 400px) {
-  .figure,
-  li#f-mycroft {
+.bgimg{
     margin-right: 3.317535545023696682%;    /* 21px / 633px */
     width: 48.341232227488151658%;          /* 306px / 633px */
-  }  li#f-watson,
-  li#f-moriarty {
-    margin-right: 0;
-  }
 }
 
 body h1, p {
