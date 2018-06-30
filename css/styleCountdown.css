@@ -3,21 +3,22 @@ font-family:"Indie Flower";
 font-weight:bold;
 font-size: 55px;
 text-align: center;
-color: #111;
+color: #FFF;
 width: 100%;
 margin: 0;
 padding: 0;
+text-shadow: 4px 3px black;
 }
 body h2 {
 font-family:"Indie Flower";
 font-weight: bolder;
 font-size: 55px;
 text-align: center;
-color: #111;
+color: #FFF;
 width: 100%;
 margin: 0;
 padding: 0;
-/*text-shadow: 4px 3px black;*/
+text-shadow: 4px 3px black;
 }
 
 body, html {
