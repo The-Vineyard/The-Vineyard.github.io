@@ -1,9 +1,3 @@
-@media screen and (max-width: 400px) {
-.bgimg{
-    height: 21px;
-    width: 306px;
-}
-
 body h1, p {
 font-family:"Indie Flower";
 font-weight:normal;
