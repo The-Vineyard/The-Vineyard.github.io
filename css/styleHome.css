@@ -3,10 +3,11 @@ font-family:"Indie Flower";
 font-weight:normal;
 font-size: 55px;
 text-align: left;
-color: #111;
+color: #FFF;
 width: 100%;
 margin: 0;
 padding: 0;
+text-shadow: 4px 3px black;
 }
 
 html, body {
