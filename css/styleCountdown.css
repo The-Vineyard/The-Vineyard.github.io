@@ -1,0 +1,57 @@
+body h1, p {
+font-family:"Indie Flower";
+font-weight:bold;
+font-size: 55px;
+text-align: center;
+color: #111;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+body h2 {
+font-family:"Indie Flower";
+font-weight: bolder;
+font-size: 55px;
+text-align: center;
+color: #111;
+width: 100%;
+margin: 0;
+padding: 0;
+/*text-shadow: 4px 3px black;*/
+}
+
+body, html {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('F:/4-H Website/img/countdown_background.jpeg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  /*  color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;*/
+}
+
+.topright {
+    position: absolute;
+    top: 0;
+    right: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
