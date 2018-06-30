@@ -5,6 +5,7 @@ body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
 }
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -17,6 +18,7 @@ body {
     transition: 0.5s;
     padding-top: 60px;
 }
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -24,6 +26,10 @@ body {
     color: #818181;
     display: block;
     transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
 }
 .sidenav b {
     padding: 8px 8px 8px 32px;
@@ -33,12 +39,10 @@ body {
     display: block;
     transition: 0.3s;
 }
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
 .sidenav b:hover, .offcanvas b:focus{
     color: #f1f1f1;
 }
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -46,36 +50,36 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
+
 #main {
     transition: margin-left .5s;
     padding: 16px;
 }
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 </style>
 <head>
-	<link rel="stylesheet" href="css/styleHome.css"/>
+	<link rel="stylesheet" href="css/styleAbout.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
 	<title>The Vineyard</title>
 	<body style="background-color: sienna">
 </head>
 <body>
-<div>
-    <img src='img/vineyard.png'>
-</div>
+
 <header>
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#"><u><i>Home</i></u></a>
+  <a href="index.html"><u><i>Home</i></u></a>
   <a href="HTML/About.html">About</a>
   <a href="HTML/Contact.html">Contact</a>
   <a href="HTML/Countdown.html">Countdown</a>
   <a href="HTML/Map.html">Map</a>
   <a href="HTML/Menu.html">Menu</a>
-  <a href="HTML/Reservations.html">Reservations</a>
+  <a href="#">Reservations</a>
 </div>
 
 <div id="main">
@@ -91,11 +95,8 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-<h1>The Vineyard</h1>
-<p><h1>Ristorante Italiano</h1></p>
+<h2>Reservtion link:</h2>
+<a href="https://form.jotform.com/81795723684168"><h3>Reservation Form</h3></a>
 </header>
-
-
-
 </body>
 </html> 

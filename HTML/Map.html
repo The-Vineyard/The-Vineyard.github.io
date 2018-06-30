@@ -25,6 +25,9 @@ body {
     display: block;
     transition: 0.3s;
 }
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
 .sidenav b {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -32,9 +35,6 @@ body {
     color: #818181;
     display: block;
     transition: 0.3s;
-}
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
 }
 .sidenav b:hover, .offcanvas b:focus{
     color: #f1f1f1;
@@ -55,33 +55,28 @@ body {
   .sidenav a {font-size: 18px;}
 }
 </style>
+
 <head>
-	<link rel="stylesheet" href="css/styleHome.css"/>
+	<link rel="stylesheet" href="css/styleMap.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
 	<title>The Vineyard</title>
 	<body style="background-color: sienna">
 </head>
-<body>
-<div>
-    <img src='img/vineyard.png'>
-</div>
-<header>
 
+<header>
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#"><u><i>Home</i></u></a>
+  <a href="index.html"><u><i>Home</i></u></a>
   <a href="HTML/About.html">About</a>
   <a href="HTML/Contact.html">Contact</a>
   <a href="HTML/Countdown.html">Countdown</a>
-  <a href="HTML/Map.html">Map</a>
+  <a href="#">Map</a>
   <a href="HTML/Menu.html">Menu</a>
   <a href="HTML/Reservations.html">Reservations</a>
 </div>
-
 <div id="main">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 </div>
-
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -91,11 +86,20 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-<h1>The Vineyard</h1>
-<p><h1>Ristorante Italiano</h1></p>
+<h1>
+Come visit us, friends!
+<div id="googleMap" style="width:50%;height:400px;"></div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(39.840620,-86.389121),
+    zoom:16,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4EhQ5NTVDi2eFFj5SCEHlx6KdKevvii8&callback=myMap"></script>
+<p></p>
+</h1>
 </header>
-
-
-
-</body>
 </html> 

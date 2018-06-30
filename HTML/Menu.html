@@ -25,6 +25,9 @@ body {
     display: block;
     transition: 0.3s;
 }
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
 .sidenav b {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -32,9 +35,6 @@ body {
     color: #818181;
     display: block;
     transition: 0.3s;
-}
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
 }
 .sidenav b:hover, .offcanvas b:focus{
     color: #f1f1f1;
@@ -56,25 +56,23 @@ body {
 }
 </style>
 <head>
-	<link rel="stylesheet" href="css/styleHome.css"/>
+  <link rel="stylesheet" href="css/styleAbout.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
 	<title>The Vineyard</title>
 	<body style="background-color: sienna">
 </head>
 <body>
-<div>
-    <img src='img/vineyard.png'>
-</div>
+
 <header>
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#"><u><i>Home</i></u></a>
+  <a href="index.html"><u><i>Home</i></u></a>
   <a href="HTML/About.html">About</a>
   <a href="HTML/Contact.html">Contact</a>
   <a href="HTML/Countdown.html">Countdown</a>
   <a href="HTML/Map.html">Map</a>
-  <a href="HTML/Menu.html">Menu</a>
+  <a href="#">Menu</a>
   <a href="HTML/Reservations.html">Reservations</a>
 </div>
 
@@ -91,11 +89,25 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-<h1>The Vineyard</h1>
-<p><h1>Ristorante Italiano</h1></p>
+
+<h1>This home-style menu is made up of the chef's personal favorite dishes.</h1>
+<h2>
+<b><i><p>~Pizza Napoletana</p></i></b>
+<p>A delectable flatbread pizza straight from Nonna's kitchen.</p>
+<img src="img/margherita-pizza.jpg">
+<b><i><p>~Panzanella</p></i></b>
+<p>A bread and tomato salad that's a staple of Tuscan cuisine.</p>
+<img src="img/panzanella-salad.jpg">
+<b><i><p>~Burrata</p></i></b>
+<p>If you like mozzarella, burrata will be love at first bite.</p>
+<img src="img/burrata-cheese.jpg">
+<b><i><p>~Spaghetti alla Carbonara</p></i></b>
+<p>This recipe is made using fresh eggs, guanciale (pork jowl), Pecorino Romano cheese, and black pepper.</p>
+<img src="img/spaghetti-carbonara.jpg">
+<b><i><p>~Gelato</p></i></b>
+<p>Real gelato made daily by artisans, and, unlike regular ice cream, it contains less fat, less air, and much more natural flavoring.</p>
+<img src="img/italian-gelato.jpg">
+</h2>
 </header>
-
-
-
 </body>
 </html> 
