@@ -32,3 +32,11 @@ img {
     top      : 0px;
     z-index  : -1;
 }
+
+.bgimg {
+    background-image: url('../img/vineyard.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
