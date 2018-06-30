@@ -1,7 +1,7 @@
 @media screen and (max-width: 400px) {
 .bgimg{
-    margin-right: 3.317535545023696682%;    /* 21px / 633px */
-    width: 48.341232227488151658%;          /* 306px / 633px */
+    height: 21px;
+    width: 306px;
 }
 
 body h1, p {
