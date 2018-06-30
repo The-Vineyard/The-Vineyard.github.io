@@ -26,16 +26,13 @@ body, html {
     margin: 0;
 }
 
-/*.bgimg {
-    background-image: url("'../"img/countdown_background.jpeg"'");
+.bgimg {
+    background-image: url("../img/countdown_background.jpeg");
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: black;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-}*/
+}
 
 .topright {
     position: absolute;
