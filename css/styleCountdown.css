@@ -20,6 +20,14 @@ margin: 0;
 padding: 0;
 text-shadow: 4px 3px black;
 }
+body h3 {
+font-family:"Indie Flower";
+color: #FFF;
+width: 100%;
+margin: 0;
+padding: 0;
+text-shadow: 2px 1.5px black;
+}
 
 body, html {
     font-family: "Lato", sans-serif;
