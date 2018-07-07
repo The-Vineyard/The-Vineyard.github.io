@@ -42,3 +42,11 @@ header{
 background-color: rgb(244, 202, 87);
 padding: 0px;
 }
+a:link{
+	color: brown;
+	background-color: transparent;
+}
+a:visited{
+	color: brown;
+	background-color: transparent;
+}
