@@ -5,7 +5,6 @@ body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
 }
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -18,7 +17,6 @@ body {
     transition: 0.5s;
     padding-top: 60px;
 }
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -27,7 +25,6 @@ body {
     display: block;
     transition: 0.3s;
 }
-
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
@@ -42,7 +39,6 @@ body {
 .sidenav b:hover, .offcanvas b:focus{
     color: #f1f1f1;
 }
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -50,22 +46,20 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
-
 #main {
     transition: margin-left .5s;
     padding: 16px;
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 </style>
 <head>
-	<link rel="stylesheet" href="../css/styleAbout.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
-	<title>The Vineyard</title>
-	<body style="background-color: sienna">
+  <link rel="stylesheet" href="../css/styleAbout.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
+  <title>The Vineyard</title>
+  <body style="background-color: sienna">
 
 <meta name="viewport" content="width=device-width">
     
@@ -80,6 +74,7 @@ body {
   <a href="About.html">About</a>
   <a href="#">Contact</a>
   <a href="Countdown.html">Countdown</a>
+  <a href="Map.html">Map</a>
   <a href="Menu.html">Menu</a>
   <a href="Reservations.html">Reservations</a>
 </div>
@@ -92,36 +87,15 @@ body {
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
-
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-<h1>Contact:</h1>
-<h3><p><a href="mailto:hatfielddr@gmail.com"><h3>*Email Us</h3></a></p>
+<h2>Contact:</h2>
+<p><a href="mailto:hatfielddr@gmail.com"><h3>*Email Us</h3></a></p>
 <p><a href="tel:+1-317-478-4677"><h3>*Call Us</h3></a></p>
 <p><a href="https://www.instagram.com/explore/locations/18758823/so-italian-eatery" target="_blank"><h3>*Visit Our Instagram</h3></a></p>
-<p><a href="https://twitter.com/soitalianfood" target="_blank"><h3>*Visit Our Twitter</h3></a></p></h5>
-<p><h1>
-Come visit us, friends!
-<a href="https://www.google.com/maps/dir//So+Italian,+515+E+Main+St,+Brownsburg,+IN+46112/@39.816939,-86.4167727,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x886cae779b7c47a9:0x25fadc2424f21287!2m2!1d-86.3891422!2d39.840579!3e0" target="_blank">Get Directions</a>
-<div id="googleMap" style="width:400px;height:400px;"></div>
-<script>
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(39.840620,-86.389121),
-    zoom:16,
-};
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4EhQ5NTVDi2eFFj5SCEHlx6KdKevvii8&callback=myMap"></script>
-<p></p>
-</h1></p>
-<h4>Hours:</h4>
-<h3>Monday-Friday: 11 AM - 9 PM
-<p>Saturday: 3 PM - 12 AM</p>
-<p>Sunday: Closed</p></h3>
+<p><a href="https://twitter.com/soitalianfood" target="_blank"><h3>*Visit Our Twitter</h3></a></p>
 </header>
 </body>
 </html> 
