@@ -43,10 +43,10 @@ background-color: rgb(244, 202, 87);
 padding: 0px;
 }
 a:link{
-	color: brown;
+	color: rgb(244, 202, 87);
 	background-color: transparent;
 }
 a:visited{
-	color: brown;
+	color: rgb(244, 202, 87);
 	background-color: transparent;
 }
